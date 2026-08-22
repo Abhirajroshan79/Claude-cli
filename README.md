@@ -353,27 +353,27 @@ Save Conversation
 
 🐛 Troubleshooting
 
-403 Forbidden Error
+*403 Forbidden Error*
 
 · Cause: Cookies expired
 · Solution: Refresh cookies from browser
 
-No Accounts Loaded
+*No Accounts Loaded*
 
 · Cause: Missing account file
 · Solution: Create ~/.claude_sessions/account1.json
 
-Rate Limit (429)
+*Rate Limit (429)*
 
 · Cause: API rate limit reached
 · Solution: Use /switch to change accounts
 
-405 Method Not Allowed
+*405 Method Not Allowed*
 
 · Cause: Wrong endpoint
 · Solution: Update to latest version
 
-JSON Parse Error
+*JSON Parse Error*
 
 · Cause: Invalid JSON format
 · Solution: Validate JSON at https://jsonlint.com
