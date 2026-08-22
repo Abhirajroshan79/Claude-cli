@@ -1,0 +1,8 @@
+{
+  "account_name": "your_email@gmail.com",
+  "cookies": {
+    "sessionKey": "YOUR_SESSION_KEY_HERE",
+    "__cf_bm": "YOUR_CF_BM_HERE",
+    "_cfuvid": "YOUR_CFUVID_HERE"
+  }
+}
