@@ -406,10 +406,9 @@ If you find this useful:
 
 ---
 
-📞 Contact
+**Repository**
 
-· GitHub: Abhirajroshan79
-· Repository: Claude-cli
+[Claude-cli](https://github.com/Abhirajroshan79/Claude-cli).
 
 ---
 
