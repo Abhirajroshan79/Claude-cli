@@ -62,12 +62,28 @@ System Requirements
 · Termux (Android) or Linux/macOS
 · Internet connection
 
-Python Dependencies
+---
 
+📦 Dependencies
+
+Python Packages
+
+```bash
+pip install requests rich pyfiglet
 ```
-requests>=2.31.0
-rich>=13.7.0
-pyfiglet>=0.8.post1
+
+Termux Dependencies
+
+```bash
+pkg update && pkg upgrade
+pkg install python python-pip sqlite
+pip install requests rich pyfiglet
+```
+
+Linux/macOS Dependencies
+
+```bash
+pip3 install requests rich pyfiglet
 ```
 
 ---
@@ -239,30 +255,6 @@ Command Description Example
 /save <file> Save conversation /save chat.md
 /version Show version /version
 /exit Exit Claude /exit
-
----
-
-📦 Dependencies
-
-Python Packages
-
-```bash
-pip install requests rich pyfiglet
-```
-
-Termux Dependencies
-
-```bash
-pkg update && pkg upgrade
-pkg install python python-pip sqlite
-pip install requests rich pyfiglet
-```
-
-Linux/macOS Dependencies
-
-```bash
-pip3 install requests rich pyfiglet
-```
 
 ---
 
